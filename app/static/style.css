@@ -1,7 +1,41 @@
 .profile-thumbnail {
 	position: absolute;
 }
+
 .profile-header {
 	min-height: 260px;
 	margin-left: 280px;
+}
+
+.posts {
+	list-style-type: none;
+	padding: 0;
+	margin: 16px 0 0 0;
+	border-top: 1px solid #e0e0e0;
+}
+
+.posts .post {
+	padding: 8px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.posts .post:hover {
+	background-color: #f0f0f0;
+}
+
+.post-date {
+	float: right;
+}
+
+.post-author {
+	font-weight: bold;
+}
+
+.post-thumbnail {
+	position: absolute;
+}
+
+.post-content {
+	margin-left: 48px;
+	min-height: 48px;
 }
