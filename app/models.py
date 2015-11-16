@@ -313,7 +313,7 @@ class Post(db.Model):
 		json_post = {
 			'url': url_for('api.get_post', id=self.id, _external=True),
 			'body': self.body,
-			'body': self.body_html,
+			'body_html': self.body_html,
 			'timestamp': self.timestamp,
 			'author': url_for('api.get_user', id=self.author_id,
 								_external=True),
