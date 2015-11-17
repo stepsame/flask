@@ -1,14 +1,14 @@
-"""add profile col
+"""user information
 
-Revision ID: c9362bccac
-Revises: 212667bd223
-Create Date: 2015-11-06 16:22:56.731710
+Revision ID: d66f086b258
+Revises: 56ed7d33de8d
+Create Date: 2013-12-29 23:50:49.566954
 
 """
 
 # revision identifiers, used by Alembic.
-revision = 'c9362bccac'
-down_revision = '212667bd223'
+revision = 'd66f086b258'
+down_revision = '56ed7d33de8d'
 
 from alembic import op
 import sqlalchemy as sa
