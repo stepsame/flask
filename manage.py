@@ -57,7 +57,7 @@ def deploy():
 	from flask.ext.migrate import upgrade
 	from app.models import Role, User
 
-	# migrate database to latest version
+	# migrate database to latest revision
 	upgrade()
 
 	# create user roles
