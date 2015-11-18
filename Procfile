@@ -1,1 +1,1 @@
-web: gunicorn manage:app
+web: waitress-serve --port=5000 manage:app
